@@ -1,0 +1,25 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 18, in script
+    $import var2.rpy
+  File "game/script.rpy", line 18, in <module>
+    $import var2.rpy
+ImportError: No module named var2.rpy
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 18, in script
+    $import var2.rpy
+  File "/home/yeti/Documents/RenPy/renpy/ast.py", line 805, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/home/yeti/Documents/RenPy/renpy/python.py", line 1461, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script.rpy", line 18, in <module>
+    $import var2.rpy
+ImportError: No module named var2.rpy
+
+Linux-3.19.0-49-generic-x86_64-with-debian-jessie-sid
+Ren'Py 6.99.8.959
+Test2+ 0.0

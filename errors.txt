@@ -1,0 +1,13 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 834: Line is indented, but the preceding jump statement statement does not expect a block. Please check this line's indentation.
+    "this is the YAYsensei label"
+    ^
+
+File "game/script.rpy", line 838: Line is indented, but the preceding jump statement statement does not expect a block. Please check this line's indentation.
+    "this is the {color=ff0000}nope{/color} label"
+    ^
+
+Ren'Py Version: Ren'Py 6.99.8.959
